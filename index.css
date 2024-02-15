@@ -1,0 +1,103 @@
+body{
+    background-color: darksalmon;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    gap: 10px;
+}
+
+.inputForm input{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.inputForm label, .label{
+    font-weight: bold;
+}
+
+.inputForm h2{
+    text-align: center;
+}
+
+.inputForm button {
+    width: 100px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+.cardGenerator{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50%;
+    padding: 8px;
+    gap: 10px;
+}
+
+.cardGenerator h2{
+    text-align: center;
+}
+
+.userImage img{
+    width: 120px;
+}
+
+.studentContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.studentInformation{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 550px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .studentContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .userImage img{
+        width: 100px;
+    }
+}
