@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="card.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Student ID Card Generator</title>
+</head>
+<body>
+    <h1>STUDENT ID CARD GENERATOR</h1>
+    <div class="container">
+        <div class="inputForm">
+            <h2>INPUT FORM</h2>
+            <label for="name">Enter Name:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="school">Enter School:</label>
+            <input type="text" name="school" id="school">
+
+            <label for="course">Enter Course:</label>
+            <input type="text" name="course" id="course">
+
+            <label for="hostel">Enter Hostel:</label>
+            <input type="text" name="hostel" id="hostel">
+
+            <button onclick="generateCard()">Generate Card</button>
+        </div>
+
+        <div class="cardGenerator" id="cardGenerator">
+            <h2>GENERATED CARD</h2>
+            <div class="studentContainer">
+                <div class="userImage">
+                    <img src="user.png" alt="user image">
+                </div>
+            <div class="studentInformation">
+                <div class="name">
+                    <p class="label">Name:</p>
+                    <p id="cardName"></p>
+                </div>
+
+                <div class="school">
+                    <p class="label">School:</p>
+                    <p id="cardSchoolName"></p>
+                </div>
+
+                <div class="course">
+                    <p class="label">Course:</p>
+                    <p id="cardCourseName"></p>
+                </div>
+
+                <div class="hostel">
+                    <p class="label">Hostel:</p>
+                    <p id="cardHostelName"></p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
