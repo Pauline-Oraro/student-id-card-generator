@@ -9,14 +9,14 @@ You can see the demo [here](https://pauline-oraro.github.io/student-id-card-gene
 
 ## Tech Stack
 - HTML
--  CSS
--  JAVASCRIPT
+- CSS
+- JAVASCRIPT
 
 ## Features
 - DOM manipulation using JavaScript.
 
 In the generateCard function, we retrieve the values of the input fields, assign them to the corresponding elements on the generated card, and then display the card.
-We take the student's name, college name, course name and hostel name from input by first accessing the individual elements using document.getElementById method and reading their values. Then we retrieve the the target card elements using same method and populate values using `innerHTML` method.
+We take the student's name, college name, course name and hostel name from input by first accessing the individual elements using `document.getElementById` method and reading their values. Then we retrieve the the target card elements using same method and populate values using `innerHTML` method.
 
 ## Contact
-Feel free to reach me at ![hiltrapauline@gmail.com]
+Feel free to reach me at [hiltrapauline@gmail.com]
